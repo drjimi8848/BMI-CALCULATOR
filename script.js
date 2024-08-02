@@ -23,12 +23,12 @@ function calculateBMI(weight, height) {
 
 function getResultText(bmi) {
     if (bmi < 18.5) {
-        return 'Underweight, BHAT KHAU HAI';
-    } else if (bmi < 25) {
-        return 'Normal weight, PERFECT BODY';
+        return 'Underweight,\n you should eat a variety of foods that give you the nutrition you need.';
+    } else if (bmi <= 24.9) {
+        return 'Normal weight,\n you have a Perfect Body.';
     } else if (bmi < 30) {
-        return 'Overweight, ALI KAM KHAU';
+        return 'Overweight,\n You need to eat a healthy, reduced-calorie diet and exercise regularly.';
     } else {
-        return 'Obese, DERAI KAM KHAU';
+        return 'Obese,\n You need to change your lifestyle. Eat healthy, do exercise and stay happy and stress free';
     }
 }
