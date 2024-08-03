@@ -13,6 +13,11 @@ form {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     background-color: #AF814C
 }
+@media only screen and (max-width: 500px) {
+    form {
+      width: 75%;
+    }
+}
 
 label {
     display: block;
@@ -63,4 +68,10 @@ a{
 i{
     height: 30px;
     width: 25px;
+}
+h1{
+    font-size: 2 rem;
+    font-weight: 200;
+    font-style: normal;
+    font-family: 'Times New Roman', Times, serif;
 }
